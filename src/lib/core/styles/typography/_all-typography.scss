@@ -20,7 +20,9 @@
 @import '../../../tooltip/tooltip-theme';
 @import '../../../toggle/toggle-theme';
 @import '../../../tree/tree-theme';
+@import '../../../select/select-theme';
 @import '../../../tree-select/tree-select-theme';
+@import '../../../typeahead/typeahead-theme';
 
 
 @mixin mosaic-typography($config: null) {
@@ -52,5 +54,7 @@
     @include mc-tooltip-typography($config);
     @include mc-tree-typography($config);
     @include mc-tag-typography($config);
+    @include mc-select-typography($config);
     @include mc-tree-select-typography($config);
+    @include mc-typeahead-typography($config);
 }
